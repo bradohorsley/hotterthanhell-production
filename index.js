@@ -10,7 +10,8 @@ import "./icons.js";
 
 //Add into Head Tag
 $("head").append("<title>Hotter Than Hell?</title>")
-.append("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+.append("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
+.append("<script>!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version=\"2.0\",o.queue=[],(a=t.createElement(n)).async=!0,a.src=\"https://connect.facebook.net/en_US/fbevents.js\",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,\"script\"),fbq(\"init\",\"495252831702538\"),fbq(\"track\",\"PageView\");</script><noscript><img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=495252831702538&ev=PageView&noscript=1\"/></noscript>");
 //.append("<script src=\"https://kit.fontawesome.com/e479f9a071.js\" crossorigin=\"anonymous\"></script>");
 //Add Firebase and Analytics
 //$("head").append("<script src=\"https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js\"></script>").append("<script src=\"https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js\"></script>");
